@@ -161,7 +161,7 @@ document.getElementById("first_name").value = getSavedValue("first_name");
                                            $("body").css("cursor","progress");
                                     $("#register").prop("disabled",true);
                                     var appoinment_date="2022-09-28";
-      document.cookie = "appoinment_date="+appoinment_date+";secure";                               
+                                  
       $.ajax({
                                         type:"POST",
                                         data:myArray,
